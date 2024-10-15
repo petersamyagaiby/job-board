@@ -1,0 +1,110 @@
+/* variables. to use variables => color: var(--dark); */
+:root {
+    --primary: #00b074;
+    --lightprimary: #effdf5;
+    --secondary: #2b9bff;
+    --light: #effdf5;
+    --dark: #2b3940;
+    --grey: #666565;
+    --lightopacity: #ffffff77;
+}
+
+body {
+    font-family: "Heebo", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #666565 !important;
+}
+
+/* font families:*/
+.fftitle {
+    font-family: "Inter", sans-serif;
+}
+
+.ffbody {
+    font-family: "Heebo", sans-serif;
+}
+
+/* colors */
+.coprimary {
+    color: #00b074 !important;
+}
+
+.bgprimary {
+    background-color: #00b074 !important;
+}
+
+.cosecondary {
+    color: #2b9bff !important;
+}
+
+.bgsecondary {
+    background-color: #2b9bff !important;
+}
+
+.colight {
+    color: #effdf5 !important;
+}
+
+.bglight {
+    background-color: #effdf5 !important;
+}
+
+.codark {
+    /*also headers font color */
+    color: #2b3940 !important;
+}
+
+.bgdark {
+    background-color: #2b3940 !important;
+}
+
+.cowhite {
+    color: #ffffff !important;
+}
+
+.bgwhite {
+    background-color: #ffffff !important;
+}
+
+.lightprimary {
+    color: #effdf5 !important;
+}
+
+.bglightprimary {
+    background-color: #effdf5 !important;
+}
+
+.cogrey {
+    color: #666565 !important;
+}
+
+.bggrey {
+    background-color: #666565 !important;
+}
+
+.colightopacity {
+    color: #ffffff77 !important;
+}
+
+.bglightopacity {
+    background-color: #ffffff77 !important;
+}
+
+.job-item,
+.trashed-jobs-item,
+.application-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    transition: 0.75s;
+}
+
+.job-item:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+textarea {
+    resize: none !important;
+}
